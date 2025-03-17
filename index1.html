@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crenvuști - The Ultimate Hot Dog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .hero {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/6/6f/Hot_dog_with_mustard.png') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .section {
+            padding: 50px;
+        }
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .recipe {
+            background-color: #ffe0b2;
+            padding: 30px;
+            border-radius: 10px;
+            width: 60%;
+            margin: auto;
+            transition: background 0.5s;
+        }
+        .recipe:hover {
+            background-color: #ffcc80;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+
+<header>Crenvuști - The Glizzy King</header>
+
+<div class="hero">Hot Dogs, But Make Them Romanian!</div>
+
+<section class="section">
+    <h2>History of Crenvuști</h2>
+    <p>Crenvuști, Romania’s beloved hot dog, has been a street food staple for decades. Whether grilled, boiled, or in a fluffy bun, it's a must-try!</p>
+</section>
+
+<section class="section gallery">
+    <h2>Glizzy Gallery</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Hotdog_-_Evan_Swigart.jpg" alt="Crenvuști 1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Hot_dog_with_mustard.png" alt="Crenvuști 2">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Hotdog.jpg" alt="Crenvuști 3">
+</section>
+
+<section class="section">
+    <h2>How to Make a Perfect Crenvuști</h2>
+    <div class="recipe">
+        <p>🔥 Grill or boil your *crenvuști* to perfection.</p>
+        <p>🌭 Place it in a soft bun and add mustard, ketchup, or pickles.</p>
+        <p>😋 Enjoy like a true glizzy enthusiast!</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Fun Facts About Crenvuști</h2>
+    <p>🥇 Did you know Romania has a "Glizzy Eating Championship" every summer?</p>
+    <p>🎉 Some *crenvuști* are made with secret spice blends dating back centuries.</p>
+    <p>🔥 The longest *crenvuști* ever made in Romania was over 10 meters long!</p>
+</section>
+
+<section class="section contact-form">
+    <h2>Send Us Your Recipe</h2>
+    <p>Want to share your *crenvuști* recipe? Send it to us!</p>
+    <form action="mailto:gavradacian11@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <textarea name="message" rows="4" placeholder="Your Recipe"></textarea><br>
+        <button type="submit">Send Recipe</button>
+    </form>
+</section>
+
+</body>
+</html>
